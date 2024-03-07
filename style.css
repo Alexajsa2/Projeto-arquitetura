@@ -1,5 +1,6 @@
 *{
-    font-family: "inter";
+    margin: 0px;
+    font-family: 'inter';
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -18,8 +19,10 @@
     position: absolute;
     width: 1024px;
     height: 72px;
-    left: 62px;
+    left: 50px;
     top: 180px;
+    margin-top: 50px;
+    margin-left: 50px;
     font-family: 'inter';
     font-style: normal;
     font-weight: 600;
@@ -36,6 +39,9 @@
     height: 60px;
     left: 64px;
     top: 298px;
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 100px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -44,19 +50,20 @@
 }
 
 #menusuperior{
-    width: 1440px;
     height: 475px;
     left: 0px;
     top: 0px;
     background: #303030;
+    color: aliceblue
 }
 
 #menuinformacional{
-    width: 1440px;
     height: 229px;
-    background: #F9F9F9;
+    background-color: #EAECE5;
     display: grid;
     grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
 }
 
 #textinformacionala1{
@@ -134,10 +141,9 @@ text-align: left;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0px;
-    text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-align: left;
     margin-top: 306px;
+    margin-left: 50px;
     
 }
 
@@ -148,79 +154,82 @@ text-align: left;
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
+    color: #000000;
+    margin-top: 120px;
 }
 
 #menuintermediario{
-    width: 1440px;
     height: 774px;
     top: 1003px;
     left: 77px;
     display: grid;
     grid-auto-flow: column;
+    columns: auto;
 }
 
 #image{
-    width: 510px;
+    width: 300px;
     height: 605px;
     top: 781px;
     left: 876px;
     border-radius: 30px;
     margin-top: 84.5px;
+    margin: 50px 0px 50px 0px;
 }
 
 #textformulario{
     font-family: 'inter';
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0em;
-    text-align: center;
     color: #FFFFFF;
-    padding-top: 60px;
+    padding-top: 50px;
+    margin: 25px;
 }
 
 #formulario{
-    width: 1440px;
     height: 638px;
     background-color: #303030;
+    text-align: center;
 }
 
-#caixaform{
-    padding-left: 466px;
-    padding-top: 20px;
-}
 .caixa{
-    width: 508px;
-    height: 72px;
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
     top: 1661px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 0px;
     margin-bottom: 50px;
-    padding-left: 20px;
+    padding-left: 10px;
     border: 0px;
     margin-top: 15px;
     background: rgba(255, 255, 255, 1);
     font-family: 'relaway';
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
 }
 #button{
-    width: 286px;
-    height: 74px;
-    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
     border: 0px;
     background: #C07212;
-    margin-top: 50px;
-    margin-left: 111px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #FFFFFF;
+    font-size: 15px;
+    font-weight:bolder;
+    color:#FFFFFF;
     font-family: 'relaway';
     cursor: pointer;
 }
 
 button:hover{
     transform: translate(-7px);
+    background-color: #FF8C00;
+    color: white;
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
 }
